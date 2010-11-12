@@ -1,0 +1,6 @@
+category: Gnome
+sdesc: "GNOME development tools library (sources)"
+ldesc: "Gnome Devtool Libraries
+This package contains components and libraries that are intended to be
+shared between GNOME development tools, including gnome-debug,
+gnome-build, and anjuta2."

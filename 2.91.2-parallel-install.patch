@@ -1,0 +1,22 @@
+--- origsrc/gdl-2.91.2/docs/reference/Makefile.am	2010-10-27 08:33:36.000000000 -0500
++++ src/gdl-2.91.2/docs/reference/Makefile.am	2010-11-12 10:32:00.863632800 -0600
+@@ -11,6 +11,8 @@ AUTOMAKE_OPTIONS = 1.6
+ # The name of the module, e.g. 'glib'.
+ DOC_MODULE=gdl
+ 
++DOC_MODULE_VERSION=3.0
++
+ # The top-level SGML file. You can change this if you want to.
+ DOC_MAIN_SGML_FILE=$(DOC_MODULE)-docs.sgml
+ 
+--- origsrc/gdl-2.91.2/gdl/Makefile.am	2010-10-27 08:32:19.000000000 -0500
++++ src/gdl-2.91.2/gdl/Makefile.am	2010-11-12 10:15:59.948606400 -0600
+@@ -79,7 +79,7 @@ libgdlinclude_HEADERS = \
+ 	$(libgdl_headers) \
+ 	libgdltypebuiltins.h
+ 
+-uidir = $(datadir)/gdl/ui
++uidir = $(datadir)/gdl-3/ui
+ ui_DATA = layout.ui
+ 
+ EXTRA_DIST = libgdlmarshal.list \

@@ -1,0 +1,8 @@
+category: Gnome
+requires: libcairo2 libglib2.0_0 libgtk3.0_0 libintl8 libxml2
+external-source: gdl3
+sdesc: "GNOME development tools library (runtime)"
+ldesc: "Gnome Devtool Libraries
+This package contains components and libraries that are intended to be
+shared between GNOME development tools, including gnome-debug,
+gnome-build, and anjuta2."
