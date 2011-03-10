@@ -3,11 +3,7 @@ inherit gnome2
 
 DESCRIPTION="GNOME development tools library"
 
-PATCH_URI="2.91.2-parallel-install.patch"
-
-PKG_NAMES="lib${PN}_1 lib${PN}-devel girepository-Gdl1"
+PKG_NAMES="lib${PN}_1 lib${PN}-devel girepository-Gdl3"
 libgdl3_1_CONTENTS="usr/bin/*-3-1.dll usr/share/doc/ usr/share/gdl-3/ usr/share/locale/"
 libgdl3_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
-girepository_Gdl1_CONTENTS="usr/*/gir*/Gdl-1.*"
-
-DISTCLEANFILES="gdl/Gdl-*.gir"
+girepository_Gdl3_CONTENTS="usr/*/gir*/Gdl-3.*"
