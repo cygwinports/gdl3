@@ -1,8 +1,5 @@
 category: Gnome
 requires: libgdl3_1 libcairo-devel libglib2.0-devel libgtk3-devel gettext libxml2-devel
 external-source: gdl3
-sdesc: "GNOME development tools library (development)"
-ldesc: "Gnome Devtool Libraries
-This package contains components and libraries that are intended to be
-shared between GNOME development tools, including gnome-debug,
-gnome-build, and anjuta2."
+sdesc: "GNOME docking library (development)"
+ldesc: "The GNOME Docking library provides docking features for GTK+."

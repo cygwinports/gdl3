@@ -1,8 +1,5 @@
 category: Gnome
 requires: girepository-Gtk3.0 libgdl3_1
 external-source: gdl3
-sdesc: "GNOME development tools library (GObject Introspection data)"
-ldesc: "Gnome Devtool Libraries
-This package contains components and libraries that are intended to be
-shared between GNOME development tools, including gnome-debug,
-gnome-build, and anjuta2."
+sdesc: "GNOME docking library (GObject Introspection data)"
+ldesc: "The GNOME Docking library provides docking features for GTK+."
