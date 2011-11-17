@@ -3,6 +3,11 @@ inherit gnome2
 
 DESCRIPTION="GNOME development tools library"
 
+DEPEND="gnome-common gtk-doc
+	girepository(Gtk-3.0)
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libxml-2.0)"
+
 PKG_NAMES="lib${PN}_1 lib${PN}-devel girepository-Gdl3"
 libgdl3_1_CONTENTS="usr/bin/*-3-1.dll usr/share/doc/ usr/share/gdl-3/ usr/share/locale/"
 libgdl3_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
