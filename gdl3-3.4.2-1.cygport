@@ -8,7 +8,8 @@ DEPEND="gnome-common gtk-doc
 	pkgconfig(gtk+-3.0)
 	pkgconfig(libxml-2.0)"
 
-PKG_NAMES="lib${PN}_1 lib${PN}-devel girepository-Gdl3"
-libgdl3_1_CONTENTS="usr/bin/*-3-1.dll usr/share/doc/ usr/share/gdl-3/ usr/share/locale/"
+PKG_NAMES="lib${PN}_2 lib${PN}-common lib${PN}-devel girepository-Gdl3"
+libgdl3_2_CONTENTS="usr/bin/*-3-2.dll"
+libgdl3_common_CONTENTS="usr/share/doc/ usr/share/locale/"
 libgdl3_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/"
 girepository_Gdl3_CONTENTS="usr/*/gir*/Gdl-3.*"

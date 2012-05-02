@@ -1,5 +1,5 @@
 category: Gnome
-requires: libgdl3_1 libcairo-devel libglib2.0-devel libgtk3-devel gettext libxml2-devel
+requires: libgdl3_2 libcairo-devel libglib2.0-devel libgtk3-devel gettext libxml2-devel
 external-source: gdl3
 sdesc: "GNOME docking library (development)"
 ldesc: "The GNOME Docking library provides docking features for GTK+."
