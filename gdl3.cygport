@@ -2,9 +2,9 @@ ORIG_PN="gdl"
 inherit gnome2
 
 NAME="gdl3"
-VERSION=3.6.2
+VERSION=3.8.1
 RELEASE=1
-CATEGORY="GNOME"
+CATEGORY="Libs"
 SUMMARY="GNOME docking library"
 DESCRIPTION="The GNOME Docking library provides docking features for GTK+."
 
@@ -13,7 +13,7 @@ DEPEND="gnome-common gtk-doc
 	pkgconfig(gtk+-3.0)
 	pkgconfig(libxml-2.0)"
 
-PKG_NAMES="lib${PN}_5 lib${PN}-common lib${PN}-devel girepository-Gdl3"
+PKG_NAMES="lib${NAME}_5 lib${NAME}-common lib${NAME}-devel girepository-Gdl3"
 libgdl3_5_REQUIRES="libgdl3-common"
 libgdl3_5_CONTENTS="usr/bin/*-3-5.dll"
 libgdl3_common_CONTENTS="usr/share/doc/ usr/share/locale/"
