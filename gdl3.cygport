@@ -2,7 +2,7 @@ ORIG_PN="gdl"
 inherit gnome2
 
 NAME="gdl3"
-VERSION=3.22.0
+VERSION=3.26.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="GNOME docking library"
